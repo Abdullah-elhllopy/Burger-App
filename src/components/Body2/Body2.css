@@ -1,0 +1,71 @@
+.body2{
+	width: 100%;
+}
+.gallery{
+	display: flex;
+	margin-top: 65px;
+}
+.item{
+	text-align: center;
+
+
+}
+.item img{
+	width: 100%;
+
+
+}
+.item h1{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	font-size: 16.67 px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
+
+}
+.item p{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 37.5 px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-bottom: 35px;
+}
+
+.item button{
+	padding: 20px 38px 14px 38px;
+	background-color: #cc0000;
+	color: white;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: none;
+	transition: 0.25s linear;
+
+}
+
+.item button:hover{
+	background-color: gold;
+	color: #cc0000;
+	border: 2px inset #cc0000;
+	border-radius: 15px;
+	transition:	0.15s ease-out;
+	font-size: 19px;
+	cursor: pointer;
+	transform: scale3d(1.15, 1.15, 1.15);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.33);
+}
+
+
+.item button:focus{
+	outline: none;
+	border: none;
+}
+
+
+
+

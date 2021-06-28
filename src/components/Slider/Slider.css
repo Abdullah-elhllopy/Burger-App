@@ -1,0 +1,46 @@
+.slider{
+	width:100%;
+	padding: 155px 0px 130px 0px;
+
+}
+.slider-content{
+	width:100%;
+	display: flex;
+	padding: 30px;
+	box-shadow: 10px 10px 24px -4px rgb(0,0,0,0.2);
+}
+.slider-left{
+	width: 50%;
+}
+.slider-text{
+	margin-right: 25px;
+}
+.slider-text h3{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 700;
+	font-size: 30px;
+	color:#3d3d3d;
+	line-height: 17px;
+	text-transform: uppercase;
+}
+.slider-text h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+	font-size: 42px;
+	color: #3d2514;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.slider-text p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	color: #3d3d3d;
+}
+.slider-dot{
+	margin-top: 90px;
+}
+
+.slider-right{
+	width: 50%;
+}

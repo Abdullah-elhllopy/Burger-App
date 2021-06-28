@@ -1,0 +1,108 @@
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/*******************************
+Header 
+********************************/
+
+/****** nav menu******/
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../../images/banner1.png");
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+}
+.logo{
+	margin-left: 55px;
+}
+.menu{
+	margin-right: 50px;
+	text-align: right;
+}
+.menu-contact{
+	margin-bottom: 30px;
+}
+.menu-contact img{
+	vertical-align: middle;	
+}
+.menu-contact span{
+	margin-left: 10px;
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 20.83px;
+ 	color: #3d2514; 
+ 	font-weight: 700;
+ 	vertical-align: middle;	
+}
+
+.menu-list ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 55px;
+}
+.menu-list ul li a{
+	font-family: 'Bebas Neue', cursive;
+ 	font-size: 16.67px;
+ 	color: #3d2514;
+ 	font-weight: 400;
+ 	letter-spacing: 5px;
+ 	text-transform: uppercase;
+ 	transition: all 0.25s linear;
+}
+.menu-list ul li a:hover{
+	color: #663d00;
+	font-size: 20px;
+	font-weight: 500;
+	color:crimson;
+	letter-spacing: 8px;
+	transition: all 0.2s ease-in-out;
+	border-bottom: 1px ridge red;
+
+}
+
+
+
+/****** banner content ******/
+.banner{
+	height: 70vh;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.banner p{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	font-size: 23.65px;
+	border: 2px dashed #3d2514;
+	display:inline-block;
+	padding: 13px 18px;
+	margin-left: 60px;
+}
+.banner h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size: 114.3px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-shadow: 3.5px 3.5px 3px white;
+	margin-left: 60px;
+}
+.banner h3{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size: 56.49px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-shadow: 3.5px 3.5px 3px white;
+	margin-left: 60px;
+}
+
